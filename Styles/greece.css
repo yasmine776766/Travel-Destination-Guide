@@ -7,17 +7,27 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
+    background-color: #9fd6d6;
+    }
+
+.navbar{
+    height: 100px;
+    background-color:#00BF63;
 }
-
-
+.height{
+    height :100%;
+}
 .navbar-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
     margin: 0;
     padding: 0;
 }
 
 .navbar-item {
-    display: inline-block;
     margin-right: 20px;
 }
 
@@ -38,13 +48,25 @@ main {
 
 .description {
     margin-bottom: 30px;
-    height: 500px;
+    height: 100px;
+    gap:10px;
 }
 
-h2 {
+.description h2 {
     color: #007bff;
 }
+.description >p{
+    color:#333;
+    line-height: 1.6;
+    margin-bottom: 10px;
 
+
+.highlights{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+}
 ul {
     list-style-type: none;
 }
@@ -65,7 +87,9 @@ ul li {
     justify-content: center;
 }
 
-
+.color{
+    color:#007bff;
+}
 
 .social-icons{
     display : flex;
@@ -98,8 +122,12 @@ ul li {
     
 }
 .photos{
-    width:400px;
+    width:300px;
     height: 300px;
+}
+.layout h3{
+    color:#007bff;
+
 }
 .layout{
     display: flex;
@@ -107,4 +135,5 @@ ul li {
     align-items: center;
     justify-content: center;
     gap:30px;
+    height:470px;
 }
