@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    background-color: #9fd6d6;
+ 
+}
+
+.flex-col{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap:10px;
+
+}
+.header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: #94b2b0;
+    
+}
+
+.mainelements{
+    display: flex;
+    width: 100%;
+    gap:15px;
+    padding:15px;
+    }
+.hero-section{
+    height: 600px;
+   
+    opacity : 0.7;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('../images/travel-insurance-solo-travel-holidays-header.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #121f69;
+    
+}
+
+.hero-img{
+    width:100%;
+        }
+
+.title{
+    font-size: 3em; 
+    font-weight: bold; 
+    color:#f7fbfd;
+    font-family: 'Roboto', sans-serif;
+    width:100%;  
+}
+
+.subtitle{
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #fbf9f9;
+    font-family: 'Roboto', sans-serif;
+    width:100%
+}
+
+.flex-center{
+    justify-content:center;
+}
+
+.flex-between{
+    justify-content:space-between;
+}
+.flex-end{
+    justify-content:end;
+   
+}
+.flex-start{
+    justify-content:start;
+}
+.flex-space-evenly {
+    justify-content: space-evenly;
+  }
+
+.navbar{
+    height: 100px;
+    background-color:#00BF63;
+}
+
+
+
+.subelements{
+    display : flex; 
+}
+ 
+
+.logo{
+    width:70px;
+    height:70px;
+
+    
+
+}
+
+.flex-grow-two {
+    flex-grow: 2;
+  }
+.flex-shrink {
+    flex-shrink: 1;
+  }
+
+.child{
+    display:flex;
+}
+
+
+
+   
+.btn {
+    padding: 10px 20px;
+    background-color: #faf4f4;
+    color: #190969;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+   
+
+.btn:hover {
+    background-color: #0056b3; 
+
+}
+
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+
+
+.navbar-item a {
+ 
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-item a:hover {
+    color: #007bff; 
+}
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-dest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px; 
+}
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin: 0 10px;
+    gap:5px; 
+    
+}
+
+.destination img {
+    width: 400px; 
+    height: auto;
+    border-radius: 8px; 
+    
+}
+
+.destination h2 {
+    margin-top: 10px;
+    color:#00BF63
+    
+}
+.destination h2 a:hover {
+    color: #007bff; 
+}
+
+.destination p {
+    color: #347978; 
+    max-width: 300px;
+    overflow-y: auto;
+
+}
+
+
+dest-images{
+
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover;}
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+    
+    header {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-item a:hover {
+    color: #007bff;
+}
+    
+    main {
+        padding: 20px;
+    }
+    
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        display: flex;
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+   
+    }
+    .social-icons{
+        display : flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+    }
+    .social-icons img {
+        
+        width: 30px;
+        margin: 0 10px;
+    }
+    
+    .footer-bottom {
+        margin-top: 20px;
+    }
+    
